@@ -19,7 +19,7 @@
     h1 {
         background-color: gray;
         font-family: 'Kaoly';
-        color: powderblue ;
+        color: powderblue;
         text-align: center;
     }
 
@@ -28,25 +28,25 @@
         padding: 10px;
     }
 
-    img{border: 6px solid black;
-    border-radius: 10%;
-width: 500px;
-box-shadow: 5px 5px 10px black;
-display: block;
-margin: 10px auto;
-}
-button{
-    background-color: blanchedalmond;
-    color:red (65, 65, 128);
-    padding: 5px;
-    border-radius: 5px;
-    display: block;
-    margin: 10px auto;
-    box-shadow: 3px 5px 8px black;
-    cursor: pointer;
-}
-img{}
+    img {
+        border: 6px solid black;
+        border-radius: 10%;
+        width: 500px;
+        box-shadow: 5px 5px 10px black;
+        display: block;
+        margin: 10px auto;
+    }
 
+    button {
+        background-color: blanchedalmond;
+        color: red (65, 65, 128);
+        padding: 5px;
+        border-radius: 5px;
+        display: block;
+        margin: 10px auto;
+        box-shadow: 3px 5px 8px black;
+        cursor: pointer;
+    }
 </style>
 
 <head>
@@ -66,32 +66,25 @@ img{}
 <a href="https:
     //www.xataka.com/analisis/call-of-duty-mobile-hemos-probado-homenaje-perfecto-a-saga-sus-12-anos-tiros-online">
     <img src="download.jpg"> </a>
-    <br />
-    <a href="https://www.callofduty.com"> call ofduty </a>
-    <button id="boton">
-        ingresar nombre 
-    </button>
-    <footer>FERNEY ACOSTA</footer>
-    <script>
+<br />
+<a href="https://www.callofduty.com"> call ofduty </a>
+<button id="boton">
+    ingresar nombre
+</button>
+<footer>FERNEY ACOSTA</footer>
+<script>
+    let nombre;
+    nombre = prompt("pon tu nombre ");
+    document.getElementById("boton").addEventListener("clck", function () {
         let nombre;
-        nombre = prompt ("pon tu nombre ");
-        document.getElementById("boton").addEventListener("clck",function(){let nombre;
-        nombre = prompt ("pon tu nombre ");
-        });
-        let mensaje 
-        mensaje = "bienbenido";
-        alert(nombre + mensaje).innerHTML + nombre;
-        
-        
-
-    </script>
+        nombre = prompt("pon tu nombre ");
+    });
+    let mensaje
+    mensaje = "bienbenido ";
+    alert(nombre + mensaje).innerHTML + nombre;
 
 
 
-
-
-
-
-
+</script>
 
 </html>
